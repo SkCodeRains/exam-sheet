@@ -374,7 +374,7 @@ export const System_Programming_And_Operating_System: PeriodicElement[] = [
         
         d.
         Desktop`,
-        A: "All of these"
+        A: "Kernel"
     }, {
         Q: "The strategy of making processes that are logically unable to be temporily suspended is called___?",
         A: "Preemptive scheduling"
@@ -495,6 +495,141 @@ export const System_Programming_And_Operating_System: PeriodicElement[] = [
         d.
         fatal error`,
         A: "All"
+    }, {
+        Q: `________places the instruction and data into memory?`,
+        A: "Loading"
+    }, {
+        Q: `The FCFS algorithm is particularly troublesome for`,
+        A: "Multiprogramming"
+    }, {
+        Q: `Expand DOS. `,
+        A: "Disk operating system"
+    }, {
+        Q: `_____ Contain a copy of the content of the memory location stored in MAR?`,
+        A: "MBR"
+    }, {
+        Q: `Which of the following is the function of memory management component?`,
+        A: "Allocation and deallocation of memory"
+    }, {
+        Q: `Microsoft windows is______?`,
+        A: "Operating system"
+    }, {
+        Q: `_______Is synchrnization tool that does not require busy Awaiting?`,
+        A: "Semaphores"
+    }, {
+        Q: `In fixed size partition the degree of multiprogramming is bounded by ________.`,
+        A: "The number of partitions"
+    }, {
+        Q: `Who is called supervisor of computer activity?`,
+        A: "Operating system"
+    }, {
+        Q: `What is operating system?`,
+        A: "Acollection of programs that manages hardware resources"
+    }, {
+        Q: `A process can be terminated due to
+
+        a.
+        killed by another process
+        
+        b.
+        All of the options are correct
+        
+        c.
+        normal exit
+        
+        d.
+        fatal error`,
+        A: "All of the options are correct"
+    }, {
+        Q: `_______Is the function responsible for managing the computer's primary memory?
+
+        a.
+        Memory management
+        
+        b.
+        None of these
+        
+        c.
+        Low memory
+        
+        d.
+        High memory`,
+        A: "Memory management"
+    }, {
+        Q: `Which scheduling algorithm allocates the CPU first to the process that requests the CPU first?
+
+        a.
+        Priority scheduling
+        
+        b.
+        Fisrt come first served scheduling
+        
+        c.
+        none of the mentioned
+        
+        d.
+        Shortest job scheduling`,
+        A: "Shortest job scheduling"
+    }, {
+        Q: `Expand CUI
+
+        a.
+        None of these
+        
+        b.
+        command user interface
+        
+        c.
+        Control user interface
+        
+        d.
+        Correct user interface`,
+        A: " command user interface"
+    }, {
+        Q: `In a multiprogramming systems, CPU is 
+
+        a.
+        Does jobs one by one.
+        
+        b.
+        Always free
+        
+        c.
+        Does one process in a day
+        
+        d.
+        Never idle.`,
+        A: "Never idle."
+    }, {
+        Q: `From the following, which is a common file permission ?
+
+        a.
+        Write
+        
+        b.
+        Execute
+        
+        c.
+        All of these
+        
+        d.
+        Read`,
+        A: "All of these"
+    }, {
+        Q: `_____Threads are supported directly by the operating system?
+
+        a.
+        Shell
+        
+        b.
+        Kernel
+        
+        c.
+        Os
+        
+        d.
+        Multi`,
+        A: ""
     }
 ]
 export const applicationData = {
