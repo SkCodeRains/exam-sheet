@@ -15,16 +15,19 @@ export class FilterComponent implements AfterViewInit {
     SUBJECT_NAME: "Advanced Internet Programming"
   };
   @Output() searchChange: EventEmitter<string> = new EventEmitter<string>();;
+  @Output() filterChange: EventEmitter<void> = new EventEmitter<void>();;
   ngAfterViewInit(): void {
 
   }
   selectSemester(item: any) {
     this.filterParamters.SEMESTER_NAME = item.SEMESTER_NAME;
     this.selectedSemester = item;
+    this.filterChange.emit();
   }
 
   selectSubject(item: any) {
     this.filterParamters.SUBJECT_NAME = item.SUBJECT_NAME;
+    this.filterChange.emit();
   }
 
   private _keyup: string = "";

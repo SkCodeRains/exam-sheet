@@ -7,13 +7,15 @@
             <button ngbDropdownItem (click)="selectSemester(item)">SEMESTER {{item.SEMESTER_NAME}}</button>
         </div>
     </div>
-
+    {{selectSemester|json}}
     <div ngbDropdown class="d-inline-block" *ngIf="selectedSemester">
+
         <button type="button" class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>
             {{this.filterParamters.SUBJECT_NAME?this.filterParamters.SUBJECT_NAME:"SELECT SUBJECT"}}
         </button>
-        <div ngbDropdownMenu aria-labelledby="dropdownBasic1" *ngFor="let item of selectedSemester.SUBJECTS">
-            <button ngbDropdownItem (click)="selectSubject(item)">{{item.SUBJECT_NAME}}</button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+            <button ngbDropdownItem (click)="selectSubject(item)"
+                *ngFor="let item of selectedSemester.SUBJECTS">{{item.SUBJECT_NAME}}</button>
         </div>
     </div>
 

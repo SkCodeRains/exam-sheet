@@ -33,8 +33,8 @@ export class AppComponent implements AfterViewInit {
         for (const iterator2 of iterator.SUBJECTS) {
           if (iterator2.SUBJECT_NAME === this.filterParamters.SUBJECT_NAME) {
             this.tableData = iterator2.DATA
+            return;
           }
-          return;
         }
       }
     }
