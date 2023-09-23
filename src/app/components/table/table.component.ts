@@ -3,10 +3,6 @@ import { LiveAnnouncer } from '@angular/cdk/a11y';
 import { AfterViewInit, Component, Input, ViewChild } from '@angular/core';
 import { MatSort, Sort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import { PeriodicElement, applicationData } from 'src/assets/data';
-
-
-const ELEMENT_DATA = applicationData;
 
 /**
  * @title Table with sorting

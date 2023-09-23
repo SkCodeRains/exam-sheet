@@ -13,7 +13,7 @@ export class AppComponent implements AfterViewInit {
   tableData!: PeriodicElement;
   searchedTText!: string;
 
-  applicationData: any = JSON.parse(JSON.stringify(applicationData))
+  applicationData: any;
 
   filterParamters = {
     COURSE: "MCA",
@@ -23,6 +23,7 @@ export class AppComponent implements AfterViewInit {
   selectedSemester: any;
 
   ngAfterViewInit(): void {
+    this.applicationData = JSON.parse(JSON.stringify(applicationData));
     this.getFilterData();
   }
   getFilterData() {
