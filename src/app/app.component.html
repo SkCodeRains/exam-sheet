@@ -1,7 +1,6 @@
 <div [ngClass]="{'main-cover':showBackground}"></div>
 <app-header [(showBackground)]="showBackground"></app-header>
 <div class="card container-fluid bg-dark overflow-hidden opacity-75 mt-4" [ngClass]="{'opacity-75':showBackground}">
-
     <app-filter (searchChange)="searchedTText=$event" [applicationData]="applicationData"
         [selectedSemester]="selectedSemester" (filterChange)="getFilterData()"
         [filterParamters]="filterParamters"></app-filter>
